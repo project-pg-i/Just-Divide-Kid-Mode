@@ -2,7 +2,7 @@
 
 A strategic math-based puzzle game built with **Phaser 3**. Place tiles, calculate divisions, and keep the grid clear to score high!
 
-### 🎮 [Play the Live Demo on Vercel](https://just-divide-game-zeta.vercel.app/)
+### 🎮 [Play the Live Demo on Vercel](https://just-divide-kid-mode-pink.vercel.app/)
 
 ![Game Badge](https://img.shields.io/badge/Status-Playable-success)
 ![Framework](https://img.shields.io/badge/Built%20With-Phaser%203-blue)
