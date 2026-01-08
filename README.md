@@ -58,11 +58,11 @@ To run this game on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/project-pg-i/JustDivideGame.git
+    git clone https://github.com/project-pg-i/Just-Divide-Kid-Mode.git
     ```
 2.  **Navigate to the folder:**
     ```bash
-    cd JustDivideGame
+    cd Just-Divide-Kid-Mode
     ```
 3.  **Run a local server:**
     Because of browser security settings regarding audio and images, you need a local server.
