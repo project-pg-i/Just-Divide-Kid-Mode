@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Divide</title>
+    <link rel="icon" type="image/png" href="assets/images/eklavya.png">
+    <style>
+        @font-face {
+            font-family: 'Luckiest Guy';
+            src: url('assets/fonts/LuckiestGuy-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffeaf0;
+            font-family: 'Luckiest Guy', cursive; 
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('assets/images/Desktop_JustDivide_Game_2.png')
+            no-repeat center center fixed;
+            background-size: cover;
+            background-color: #ffeaf0;
+        }
+        
+        #game-container {
+            box-shadow: 0 0 50px rgba(0,0,0,0.5); 
+            line-height: 0;
+        }
+
+        #rotate-message {
+            display: none;
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: #ffeaf0;
+            z-index: 9999;
+            color: #333;
+            font-family: sans-serif;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (orientation: portrait) and (max-width: 768px) {
+            #game-container { display: none; }
+            #rotate-message { display: flex; }
+        }
+    </style>
+    <script src="phaser.min.js"></script>
+</head>
+<body>
+    <div id="rotate-message">
+        <h1>Please Rotate Your Device 🔄</h1>
+    </div>
+
+    <div id="game-container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
